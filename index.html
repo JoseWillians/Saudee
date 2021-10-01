@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon_created_by_logaster.ico">
+    <title>Primeiero Projeto</title>
+</head>
+
+<body>
+
+    <header class="menu-principal">
+        <main>
+            <div class="tira-1">
+                <div class="logo">
+                    <img src="./img/saude.png" width="15%">
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="link menu-urls">
+        <div class="tira-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href=""><b>Home</b></a>
+                    </li>
+                    <li>
+                        <a href="" class="ficticio"><b>Quem Somos</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <main>
+        <section>
+            <lu>
+                <li><a href="#1">O que é IMC?</a></li>
+                <li><a href="#2">Como é calculado?</a></li>
+                <li><a href="#3">Por que é importante saber o IMC?</a></li>
+                <li><a href="#4">O que fazer para melhorar o IMC?</a></li>
+            </lu>
+        </section>
+        <aside>
+            <h1 class="calc">Calculadora de IMC</h1>
+
+            <p id="intro">
+                A classificação do IMC (índice de massa corporal) nos ajuda a identificar a obesidade ou desnutrição em
+                crianças,
+                adolescentes, adultos e idosos.
+                Além de descobrir o seu IMC, a calculadora também pode mostrar quanto deve ser o seu peso ideal para
+                atingir a melhor
+                forma corporal, melhorando assim sua qualidade de vida e garantindo sua saúde.
+            </p>
+            <main class="container">
+                <div class="calculadora">
+                    <div class="input">
+                        <label>Nome: </label>
+                        <input placeholder="Ex: José" type="text" id='nome'>
+                    </div>
+                    <div class="input">
+                        <label>Altura: </label>
+                        <input placeholder="Ex: 1,80" type="number" id='altura'>
+                    </div>
+                    <div class="input">
+                        <label>Peso: </label>
+                        <input placeholder="Ex: 65" type="number" id='peso'>
+                    </div>
+                    <button id="calcular" onclick="imc()">Calcular</button>
+
+                    <div class="result" id='resultado'></div>
+                </div>
+            </main>
+            <p>
+            <h2 id="1"> O que é IMC?</h2>
+            IMC significa Índice de Massa Corporal, que é um parâmetro usado para julgar se o peso é compatível com a
+            altura e afetará diretamente a saúde e a qualidade de vida de uma pessoa. Portanto, com base nos resultados
+            do IMC, você também pode saber se a pessoa está dentro da faixa de peso ideal e também pode identificar
+            crianças, adolescentes, adultos ou idosos com sobrepeso, obesos ou desnutridos.
+            <br><br> Portanto, ao calcular o IMC, você pode fazer algumas mudanças em sua vida diária, como mudar sua
+            dieta,
+            melhorar seus hábitos alimentares e fazer exercícios físicos regulares.
+            <br><br>
+            </p>
+            <h2 id="2">Como é calculado?</h2>
+            <p>
+                O IMC é a relação entre o peso e a altura. A fórmula de cálculo é: IMC = peso / (altura x altura), a
+                unidade
+                de peso é
+                kg, a unidade de altura é metro e a unidade de resultado é kg / m2. Depois de obter o resultado, você
+                pode
+                verificar em
+                qual faixa o IMC está, o que significa:
+
+            <ul>
+                <li><b>Magreza</b>, quando o resultado é menor que 18,5 kg/m2;</li>
+                <li><b>Normal</b>, quando o resultado está entre 18,5 e 24,9 kg/m2;</li>
+                <li><b>Sobrepeso</b>, quando o resultado está entre 24,9 e 30 kg/m2;</li>
+                <li><b>Obesidade grau 1</b>, quando o resultado está entre 30 e 35 kg/m2.</li>
+                <li><b>Obesidade grau 2</b>, quando o resultado está entre 35 e 40 kg/m2.</li>
+                <li><b>Obesidade grau 1</b>, quando o resultado é maior que 40 kg/m2.</li>
+            </ul>
+            Portanto, com base nos resultados do IMC, também é possível saber se há risco de desenvolver doenças. Isso
+            ocorre porque
+            quanto maior o valor do IMC, maior a quantidade de gordura acumulada no corpo e maior o risco de uma pessoa
+            sofrer de
+            doenças como hipertensão, diabetes e doenças cardíacas.
+            </p>
+            <br><br>
+            <h2 id="3">Por que é importante saber o IMC?</h2>
+            <p>
+                Conhecer o IMC é importante para verificar se o peso está de acordo com a altura da pessoa e também para
+                saber se há
+                risco de desenvolver alguma doença. Para as crianças, o IMC é importante para saber se o desenvolvimento
+                está conforme o
+                esperado.
+                <br><br> Além disso, conhecendo o IMC, também é possível verificar o peso ideal para saber se a pessoa
+                está acima
+                ou abaixo do
+                peso recomendado para sua idade.
+                <br><br>
+                Embora o IMC seja essencial para a compreensão do estado nutricional de um indivíduo, também é
+                importante avaliar outros
+                parâmetros para entender melhor o estado geral de saúde, pois idosos, mulheres grávidas ou pessoas com
+                mais músculos
+                podem considerar um resultado de IMC normal, por exemplo. Portanto, além do IMC e do peso corporal
+                ideal, os níveis de
+                hidratação, a massa muscular e os níveis de atividade física precisam ser avaliados.
+                <br><br>
+            </p>
+            <h2 id="4">O que fazer para melhorar o IMC?</h2>
+            <p>
+                Para melhorar o IMC, é importante verificar se você está acima ou abaixo do peso considerado normal.
+                Quando o IMC está
+                em uma faixa mais estreita, é importante consultar um nutricionista, que fará uma avaliação abrangente,
+                proporá um plano
+                de dieta personalizado e priorizará o ganho de peso de forma saudável.
+                <br><br>
+                Por outro lado, quando o IMC está na faixa de sobrepeso ou obesidade, um nutricionista pode recomendar
+                uma dieta com
+                redução de calorias. Além da dieta, também é recomendado fazer exercícios mais regulares, o que pode
+                acelerar o
+                metabolismo, ajudar a perder peso e afetar
+            </p>
+            </p>
+        </aside>
+    </main>
+    <script src="./js/imc.js"></script>
+</body>
+
+</html>
